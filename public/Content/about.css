@@ -1,0 +1,37 @@
+.about .section-title  {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+    color:indigo;
+  }
+  .about .section-title h2 {
+    margin-bottom: 20px;
+    color:indigo;
+    transition: 0.3s;
+  }
+  .about .content ul {
+    list-style: none;
+    padding: 0;
+  }
+  .about .content ul li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .about .content ul strong {
+    margin-right: 10px;
+  }
+  .about .content ul i {
+    font-size: 16px;
+    margin-right: 5px;
+    color: #ffb727;
+    line-height: 0;
+  }
+
+  .about .content p:last-child {
+    margin-bottom: 0;
+  }
+
+  .about .count-box p {
+    font-size: 18px;
+  }

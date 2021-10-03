@@ -1,22 +1,29 @@
-.new{
-    
-    background-color: wheat;
-    font-family: 'Times New Roman', Times, serif;
-    
-}
-.new h1{
- font-size: 100px;
- text-align: center;
-}
-.new p{
-    margin-left: 30px;
-    margin-right: 70px;
-}
+
 .jumbotron{
     margin-left: 30px;
     margin-top: 30px;
     width: 50%;
     padding: 10px;
    vertical-align: middle;
-   background-color: white;
+   
+   
    }
+   .jumbotron h1{
+       color:burlywood;
+   }
+
+   .jumbotron p{
+    color:burlywood;
+    font-size: 35px;
+}
+
+    
+
+   .section-title span{
+       font-size: 50px;
+   }
+  
+  .section-title {
+      text-align: center;
+  }
+  

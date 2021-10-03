@@ -13,17 +13,24 @@ router.get('/about', function(req, res, next) {
 
 /* GET Project page. */
 router.get('/project', function(req, res, next) {
-  res.render('index', { title: 'Projects' });
+  res.render('projects', { title: 'Projects' });
 });
 
 /* GET Services page. */
 router.get('/services', function(req, res, next) {
-  res.render('index', { title: 'Services' });
+  res.render('service', { title: 'Services' });
 });
 
 /* GET Contact page. */
 router.get('/contact', function(req, res, next) {
-  res.render('index', { title: 'Contact Me' });
+  res.render('contact', { title: 'Contact Me' });
+});
+
+router.post('/contact', function(req, res, next) {
+  console.log('Got body:', req.body);
+  var storedvalue = req.body
+  res.render('index', { title: 'Home',storedvalue: "storedvalue"});
+  //res.sendStatus(200);
 });
 
 module.exports = router;
