@@ -26,11 +26,5 @@ router.get('/contact', function(req, res, next) {
   res.render('contact', { title: 'Contact Me' });
 });
 
-router.post('/contact', function(req, res, next) {
-  console.log('Got body:', req.body);
-  var storedvalue = req.body
-  res.render('index', { title: 'Home',storedvalue: "storedvalue"});
-  //res.sendStatus(200);
-});
 
 module.exports = router;
