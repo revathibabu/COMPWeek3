@@ -1,3 +1,20 @@
+/*About Page*/
+
+.about .site-btn {
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 12px;
+	min-width: 213px;
+	min-height: 20px;
+	text-align: center;
+	padding: 20px 10px 15px;
+	position:fixed;
+	background-color: #fff;
+	margin-right: 10px;
+	border: 2px solid #40424a;
+	color: #40424a;
+	font-weight: 700;
+}
 .about .section-title  {
     font-weight: 700;
     margin-bottom: 15px;
